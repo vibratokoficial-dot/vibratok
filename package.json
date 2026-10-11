@@ -1,0 +1,24 @@
+{
+  "name": "vibratok-pc",
+  "version": "1.0.0",
+  "description": "VibraTok para Windows: arranque sencillo en el navegador, sin Electron.",
+  "main": "launch.js",
+  "author": "VibraTok",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node launch.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "socket.io": "^4.8.1",
+    "nodemailer": "^6.10.1",
+    "googleapis": "^144.0.0",
+    "google-auth-library": "^9.15.1"
+  }
+}

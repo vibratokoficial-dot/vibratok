@@ -1,0 +1,9 @@
+CONTINUAR CON GOOGLE - VIBRATOK
+
+El ID de cliente ya esta incluido. No tienes que ejecutar el configurador de Gmail.
+
+1. Extrae este ZIP en una carpeta nueva.
+2. Abre INICIAR_VIBRATOK.bat. El ID se guarda automaticamente al iniciar.
+3. Prueba el boton “Continuar con Google”.
+
+Si Google muestra un error de origen autorizado, envia una foto del error.

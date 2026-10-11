@@ -1,0 +1,13 @@
+VIBRATOK — EMPIEZA AQUÍ
+
+1. Extrae TODO el contenido del ZIP en una carpeta nueva.
+2. Abre ABRIR_VIBRATOK.bat (o INICIAR_VIBRATOK.bat).
+3. El ID de cliente de Google ya está incluido y se guarda automáticamente.
+4. La primera vez necesita Internet para instalar los componentes.
+
+NO abras CONFIGURAR_GMAIL_OAUTH.bat para iniciar VibraTok. Si lo abres por error, solo mostrará un aviso. Para iniciar, usa ABRIR_VIBRATOK.bat.
+
+Nota: el inicio de sesión real depende también de que el cliente OAuth de Google esté configurado con los orígenes autorizados correctos. Esta carpeta no puede probar el inicio de sesión en tu PC ni garantizar que Google Cloud ya esté configurado.
+
+
+ID de Google integrado directamente en el servidor para que no dependa del archivo local de configuración.

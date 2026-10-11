@@ -1,0 +1,10 @@
+VibraTok - configuración Google integrada
+
+ID de cliente configurado:
+188062078397-9ghnv0tgdtlfnuaik64pvb0mck1lk13t.apps.googleusercontent.com
+
+Para abrir: extrae todo el ZIP a una carpeta nueva. Ejecuta INSTALAR_VIBRATOK.bat y deja que termine; después puedes abrir INICIAR_VIBRATOK.bat.
+Corrección clave: el lanzador ahora no reutiliza un servidor VibraTok antiguo que no tenga este ID de cliente.
+Se conservan los datos existentes en %APPDATA%\VibraTokData.
+
+Nota honesta: se revisó la sintaxis de los archivos JavaScript; el inicio de sesión real requiere probar Google Cloud y el navegador en tu computadora.

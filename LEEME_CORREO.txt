@@ -1,0 +1,9 @@
+CONFIGURACION DE CORREO VIBRATOK
+
+1. Haz doble clic en CONFIGURAR_CORREO_GMAIL.bat.
+2. Se abrira una ventana para escribir la contrasena de aplicacion de Google.
+3. No uses la contrasena normal de Gmail.
+4. Cuando diga que se guardo, cierra VibraTok completamente y vuelve a abrirlo.
+5. Prueba con un correo tuyo. Guardar la configuracion no garantiza que el envio funcione; hay que probarlo.
+
+El archivo de configuracion queda en %APPDATA%\VibraTokData\smtp-config.json. No compartas ese archivo.

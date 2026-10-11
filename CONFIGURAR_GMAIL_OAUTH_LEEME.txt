@@ -1,0 +1,17 @@
+VIBRATOK — GMAIL SIN CONTRASEÑA DE APLICACIONES
+
+Esta opción utiliza OAuth 2.0. Requiere configurar Google Cloud una sola vez; no es posible saltarse la autorización de Google.
+
+1. Entra en https://console.cloud.google.com/ con la cuenta vibratokoficial@gmail.com.
+2. Crea un proyecto y activa Gmail API.
+3. Configura la pantalla de consentimiento OAuth como aplicación externa y completa los datos requeridos. Si está en modo prueba, añade tu propia cuenta como usuario de prueba.
+4. Crea un ID de cliente OAuth de tipo Aplicación web. Añade exactamente esta URI de redirección autorizada: http://127.0.0.1:8787/oauth2callback
+5. En la PC ejecuta CONFIGURAR_GMAIL_OAUTH.bat. Pega el ID y secreto de cliente (no los envíes por chat).
+6. Abre el enlace que muestra la ventana, inicia sesión con vibratokoficial@gmail.com y acepta el permiso de acceso a Gmail necesario para enviar correo por SMTP con OAuth 2.0.
+7. Cierra y reinicia VibraTok. El archivo de autorización queda en %APPDATA%\VibraTokData\gmail-oauth.json. No lo compartas.
+
+NOTAS IMPORTANTES
+- Este paquete no incluye tus credenciales OAuth: solo tú puedes crearlas en Google Cloud.
+- El envío de códigos de registro y recuperación usa el mismo transportador de correo.
+- Si Google mantiene la app en modo prueba, el acceso/refresh token puede tener limitaciones. Para una app pública se debe completar la configuración y verificación que Google exija.
+- No se puede certificar el envío real hasta autorizar la cuenta y probarlo con un correo destinatario.
